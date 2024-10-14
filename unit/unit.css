@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'sample';
+    src: url('Sample-nvJ1.ttf') format('woff'); /* Path to the font file */
+}
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.all
+{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    padding-top: 20px;
+    background-color:rgb(75, 75, 237);
+    font-family: sans-serif;
+    border-radius: 6px;
+}
+header h3
+{
+    color: whitesmoke;
+
+}
+header button
+{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+}
+header input
+{
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: none;
+    padding: 25px;
+    font-size: 40px;
+    font-family: 'sample';
+}
+main
+{
+    width: 350px;
+    height: 130px;
+    text-align: center;
+}
+main .part
+{
+    width: 340px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 12px;
+    box-shadow: 0 0 24px rgba(0 , 0, 0, 0.099);
+    padding-top: 12px;
+    border-radius: 6px;
+}
+main h4{
+    color: rgb(73, 43, 101);
+    padding-bottom: 8px;
+}
+button:hover,
+button:visited,
+input:visited,
+input:hover
+{
+    border:  2px solid rgb(171, 109, 233);
+}

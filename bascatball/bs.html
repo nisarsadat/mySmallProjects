@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskateball</title>
+    <link rel="stylesheet" href="bs.css">
+</head>
+<body>
+    <div class="all" id="all">
+
+        <div class="part1" id="div2">
+            <h1>HOME</h1>
+            <div class="para" id="para1"><span id="total1">0</span></div>
+            
+            <div class="btns">
+                <button onclick="addValue(1, 'total1')">+1</button>
+                <button onclick="addValue(2, 'total1')">+2</button>
+                <button onclick="addValue(3, 'total1')">+3</button>
+            </div>
+        </div>
+
+        <div class="part2"id="div2" >
+            <h1>GUEST</h1>
+            <div class="para" id="para2"><span id="total2">0</span></div>
+
+            <div class="btns">
+                <button onclick="addValue(1, 'total2')">+1</button>
+                <button onclick="addValue(2, 'total2')">+2</button>
+                <button onclick="addValue(3, 'total2')">+3</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="winbtn">
+        <button id="win">Result</button>
+    </div>
+    <div class="winner" id="winer">
+        <p id = "winner"></p>
+    </div>
+    <div class="over">
+        <button id="Reset" onclick="resetGame()">Reset</button>
+    </div>
+    <script src="bs.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakFast</title>
+    <link rel="stylesheet" href="breakfast.css">
+</head>
+
+<body>
+    <div class="all-page">
+        <div class="head">
+            <div class="head2">
+                <h1>Jimmy's Dinner</h1>
+                <p>The best burgers and pizzas in towen</p>
+            </div>
+
+        </div>
+        <div class="order-msg hidden">
+            <h3>Enter card details</h3>
+            <input type="text" required value="Enter your name">
+            <input type="text" required value="Enter card number">
+            <input type="text" required value="Enter CVV">
+            <button class="pay">Pay</button>
+        </div>
+        <div class="order" id="output">
+            <div class="order-of-pizza orderof">
+                <div class="pic-name">
+                    <div class="img">
+                        <img src="item graphic.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <p>pepperoni.mushorm.monzerala</p>
+                        <p><strong>$14</strong></p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="add-btn.png" alt="">
+                </div>
+
+            </div>
+            <div class="order-of-burgur orderof">
+                <div class="pic-name">
+                    <div class="img">
+                        <img src="item graphic2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <p>pepperoni.mushorm.monzerala</p>
+                        <p><strong>$14</strong></p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="add-btn.png" alt="">
+                </div>
+            </div>
+
+            <div class="order-of-beer orderof">
+                <div class="pic-name">
+                    <div class="img">
+                        <img src="item graphic3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pizza</h3>
+                        <p>pepperoni.mushorm.monzerala</p>
+                        <p><strong>$14</strong></p>
+                    </div>
+
+                </div>
+                <div class="icon">
+                    <img src="add-btn.png" alt="">
+                </div>
+
+            </div>
+            <h2 class="order-h2">Your Order</h2>
+            <div class="order-part hidden" id="part">
+                <div class="txt">
+                    <h4>pizza</h4>
+                    <p>remove</p>
+                </div>
+                <p><strong>$14</strong></p>
+            </div>
+            <div class="total hidden">
+                <h4>Total Price</h4>
+                <p><strong>$24</strong></p>
+            </div>
+            <div class="btn hidden">
+                <button>Complete order</button>
+            </div>
+
+
+        </div>
+        <div class="msg hidden">
+            <p>Thanks,James! Your order is on its way!</p>
+        </div>
+
+
+    </div>
+
+    <script src="breakfast.js">
+        
+    </script>
+</body>
+
+</html>

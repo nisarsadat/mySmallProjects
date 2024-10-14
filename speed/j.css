@@ -1,0 +1,97 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'nisar';
+    src: url('RobotoSlab-VariableFont_wght.ttf') format('truetype'), /* TTF file for older browsers */
+         url('') format('woff'); /* WOFF file for modern browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nisar1';
+    src: url('Dosis-VariableFont_wght.ttf') format('truetype'), /* TTF file for older browsers */
+         url('') format('woff'); /* WOFF file for modern browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+     background-color: 	rgb(30, 32, 46);
+}
+  
+.all
+{
+    width: 100%;
+    height: 50vh;
+
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.icon 
+{
+    width: 320px;
+    height: 250px;
+    margin: 0 auto;
+}
+.icon img
+{
+    width: 280px;
+    height: 280px;
+
+
+}
+.text
+{
+    width: 420px;
+    height: 40px;
+    margin: 0 auto;
+    color: white;
+    font-family: "nisar";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 22px;
+
+    padding-left: 20px;
+
+
+}
+.speed
+{
+    width: 600px;
+    height: 110px;
+    margin: 0 auto;
+}
+.speed p 
+{
+    color: rgb(163, 163, 163);
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    font-family: "nisar1";
+
+}
+.iconrefresh
+{
+    width: 70px;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.iconrefresh img
+{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.iconrefresh img:hover,
+.iconrefresh img:visited
+{
+    border: 2px solid rgb(48, 48, 170);
+    cursor: pointer;
+}
